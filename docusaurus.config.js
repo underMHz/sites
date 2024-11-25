@@ -123,6 +123,9 @@ const config = {
           content: "/img/ogp.png",
         },
       ],
+      colorMode: {
+        defaultMode: 'dark',
+      },
       navbar: {
         //title: "Home",
         logo: {
