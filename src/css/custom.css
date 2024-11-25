@@ -1,0 +1,32 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #84919e;
+  --ifm-color-primary-dark: #4d5761;
+  --ifm-color-primary-darker: #465059;
+  --ifm-color-primary-darkest: #404951;
+  --ifm-color-primary-light: #94a0ab;
+  --ifm-color-primary-lighter: #9ca7b1;
+  --ifm-color-primary-lightest: #b5bdc4;
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #ff9264;
+  --ifm-color-primary-dark: #ff7941;
+  --ifm-color-primary-darker: #ff6d2f;
+  --ifm-color-primary-darkest: #f94a00;
+  --ifm-color-primary-light: #ffab87;
+  --ifm-color-primary-lighter: #ffb799;
+  --ifm-color-primary-lightest: #ffddcf;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Inter:wght@100..900&family=Noto+Emoji:wght@300..700&display=swap");
+
+body {
+  font-family: "Inter", "BIZ UDPGothic", "Noto Emoji", sans-serif;
+}
