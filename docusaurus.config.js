@@ -60,6 +60,11 @@ const config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        // Move the googleAnalytics field here
+        googleAnalytics: {
+          trackingID: 'G-1NNG2L2ZPX',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -78,7 +83,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/ogp.png",
       metadata: [
         {
           name: "og:type",
@@ -95,7 +100,7 @@ const config = {
         },
         {
           name: "og:image",
-          content: "/img/ogp.png",
+          content: "img/ogp.png",
         },
         {
           name: "og:url",
@@ -116,11 +121,11 @@ const config = {
         {
           name: "twitter:description",
           content:
-            "underMHzによる技術系ブログ&これまでに作ったアレコレを公開しています！",
+            "技術系ブログ&これまでに作ったアレコレ置き場",
         },
         {
           name: "twitter:image",
-          content: "/img/ogp.png",
+          content: "img/ogp.png",
         },
       ],
       colorMode: {
