@@ -125,7 +125,7 @@ const config = {
         },
         {
           name: "twitter:image",
-          content: "img/ogp.png",
+          content: "https://undermhz.github.io/sites/img/ogp.png",
         },
       ],
       colorMode: {
