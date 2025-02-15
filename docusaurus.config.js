@@ -60,8 +60,7 @@ const config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
-        // Move the googleAnalytics field here
-        googleAnalytics: {
+        gtag: {
           trackingID: 'G-1NNG2L2ZPX',
           anonymizeIP: true,
         },
