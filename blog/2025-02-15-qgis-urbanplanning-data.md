@@ -57,8 +57,11 @@ https://nlftp.mlit.go.jp/ksj/gml/data/A55/A55-22/A55-22_01000_SHP.zip である�
 
 :::note
 実行した環境など
+
 OS：Windows11
+
 言語：Python（3.10.0）
+
 エディタ：VSCode
 :::
 
